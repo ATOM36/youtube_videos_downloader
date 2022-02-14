@@ -62,7 +62,7 @@ class Window:
         self.window.mainloop()
 
     def load_image(self):
-        # canvas and image config
+        """Prepares the canvas and used image assets"""
         self.canvas: Canvas = Canvas(self.window, width=1368, height=720, bd=0, highlightthickness=0)
         self.background_image: PhotoImage = PhotoImage(file=self.__background_image_path()).subsample(1, 2).zoom(2)
         self.canvas.create_image(684, 360, image=self.background_image)
@@ -79,6 +79,7 @@ class Window:
         return os.path.join(directory, "assets", "tube2.png")
 
     def __create_entry(self) -> None:
+        """Creates the entry in which the video will be pasted"""
         Label(self.window, font=("Lucida", 10), text="Coller le lien de la vidéo ici:", relief=RAISED, bg="red",
               fg="white").place(x=1020, y=280)
 
