@@ -2,7 +2,7 @@ from window import Window
 
 
 def run():
-    Window()
+    Window().run()
 
 
 if __name__ == '__main__':

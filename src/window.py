@@ -59,8 +59,6 @@ class Window:
                                    activebackground="black")
         self.break_button.place(x=600, y=550)
 
-        self.window.mainloop()
-
     def load_image(self):
         """Prepares the canvas and used image assets"""
         self.canvas: Canvas = Canvas(self.window, width=1368, height=720, bd=0, highlightthickness=0)
@@ -93,3 +91,6 @@ class Window:
 
     def __download_video(self) -> None:
         Services.download_video(self.window, self.link)
+
+    def run(self):
+        self.window.mainloop()
