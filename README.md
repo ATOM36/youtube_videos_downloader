@@ -6,7 +6,7 @@ This app aims to allow downloading videos from YouTube.
 
 
 To do this, the user has a button allowing him to directly access Youtube's website. This action opens a new tab in the default browser if it is already open, otherwise the browser will be launched and redirected directly to Youtube. Once on Youtube you will only have to look for the video of your
-choice, copy its link in the search bar and paste it in the entry where it is marked "Paste the video link here".\
+choice, copy its link in the search bar and paste it in the entry where it is marked "Paste the video link here".
 
 # How to use ?
 Then click "Download". The window might freeze, it's nothing to worry about, the application just loads the different MP4 resolutions available for
