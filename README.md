@@ -14,8 +14,10 @@ the video.\
 Then you just have to click on the one resolution of your choice and wait for the download to finish. This will take more or less time depending on the size of the video.\
 At the end you can retrieve the video in the folder where the "app.py" file is located.
 
+#
 I am open to any feedback in order to improve a future work.\
 Thank you and enjoy.
 
 # P.S
-You may find a file named "youtube_downloader (first version).py". It's the first version of this app.\ Later on, it has been revisited in a more OO and readable way.
+You may find a file named "youtube_downloader (first version).py". It's the first version of this app.\
+Later on, it has been revisited in a more OO and readable way.
