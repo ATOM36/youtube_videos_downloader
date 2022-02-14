@@ -16,3 +16,6 @@ At the end you can retrieve the video in the folder where the "app.py" file is l
 
 I am open to any feedback in order to improve a future work.\
 Thank you and enjoy.
+
+# P.S
+You may find a file named "youtube_downloader (first version).py". It's the first version of this app.\ Later on, it has been revisited in a more OO and readable way.
