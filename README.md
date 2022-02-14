@@ -12,7 +12,7 @@ choice, copy its link in the search bar and paste it in the entry where it is ma
 Then click "Download". The window might freeze, it's nothing to worry about, the application just loads the different MP4 resolutions available for
 the video.\
 Then you just have to click on the one resolution of your choice and wait for the download to finish. This will take more or less time depending on the size of the video.\
-At the end you can retrieve the video in the folder where the "app.py" file is located.\
+At the end you can retrieve the video in the folder where the "app.py" file is located.
 
 I am open to any feedback in order to improve a future work.\
 Thank you and enjoy.
